@@ -1,0 +1,56 @@
+html {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 400px;
+    min-height: 500px;
+    font-size: 10px;
+    font-family: 'Nunito', 'Lato', sans-serif;
+    background-color: #863A6F;
+    color: #fff;
+    padding: 0 2rem;
+}
+
+.header{
+    font-size: 1.5em;
+}
+
+.header, .new-item{
+    text-align: center;
+}
+
+.new-item{
+    margin-bottom: 15px;
+}
+
+.todo-items,
+.todo-items li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.todo-items li {
+    font-size: 2em;
+    padding: 10px;
+    border-bottom: 3px solid #FFADBC;
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-items li:hover {
+    background: #975C8D;
+}
+
+.todo-items li.done .item {
+    text-decoration: line-through;
+}
+
+.todo-items div span {
+    margin: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
