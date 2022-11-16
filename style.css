@@ -33,6 +33,14 @@ body {
     list-style: none;
 }
 
+.new-item button{
+    background-color:orange;
+    color: white;
+    padding: 1px 5px 1px 5px;
+    border-radius: 0px 5px 5px 0px;
+    border-color: orange;
+}
+
 .todo-items li {
     font-size: 2em;
     padding: 10px;
@@ -54,3 +62,4 @@ body {
     font-size: 1em;
     cursor: pointer;
 }
+
