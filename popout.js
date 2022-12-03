@@ -27,9 +27,9 @@ function fetchItems() {
             if (itemsArr[i].status == 1) {
                 status = 'class="done"';
             }
-            newItemHTML += `<li data-itemindex="${i}" ${status}>
+            newItemHTML += `<li data-itemindex="${i}" ${status}><span>${i + 1}.</span>
       <span class="item">${itemsArr[i].item}</span>
-      <div><span class="itemEdit"><span>✏️ <span class="itemComplete">✅ </span><span class="itemDelete">🗑</span></div>
+      <div><span class="itemEdit">✏️</span> <span class="itemComplete">✅ </span><span class="itemDelete">🗑</span></div>
       </li>`;
         }
 
