@@ -11,4 +11,4 @@ Functions provided:
 ------
 Interface:
 
-<img src="https://user-images.githubusercontent.com/51288637/201917123-13a3ff13-847c-4624-aae8-d3b92480cc4d.png" height=50% width=50%>
+<img src="https://user-images.githubusercontent.com/51288637/205422973-005948b2-44c2-49d4-ba75-1e26b237474b.png" height=50% width=50%>
